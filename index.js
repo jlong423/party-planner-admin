@@ -60,7 +60,7 @@ async function getGuests() {
 // ADDS
 async function addParty(party) {
   try {
-    await fetch(API, +"/events", {
+    await fetch(API + "/events", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
